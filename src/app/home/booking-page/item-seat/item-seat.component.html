@@ -1,0 +1,6 @@
+<ng-container *ngIf="!seat.status; else seletectSeat">
+  <button [ngClass]="{'seat-unavailable': seat.daDat}"  class='item-seat' [class.btn-success]="status" (click)="bookSeat()"> {{seat.id}} </button>
+</ng-container>
+<ng-template #seletectSeat>
+  <button class="item-seat btn-secondary disabled" style='cursor: not-allowed;'>{{seat.id}}</button>
+</ng-template>

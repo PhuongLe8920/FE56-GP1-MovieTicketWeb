@@ -1,0 +1,25 @@
+.booking {
+  background-image: linear-gradient(to top, #b876067e, white);
+  width: 100%;
+  .container {
+    padding-top: 80px;
+  }
+  h4 {
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-align: center;
+  }
+  h5 {
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+.screen {
+  text-align: center;
+  img {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
